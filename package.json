@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A starter kit for using Eleventy (11ty) with DaisyUI.",
   "scripts": {
-    "dev": "concurrently \"npm run tailwind-watch\" \"eleventy --serve\"",
+    "start": "concurrently \"npm run tailwind-watch\" \"eleventy --serve\"",
     "tailwind": "tailwindcss -i ./src/css/tailwind-in.css -o ./src/css/tailwind-out.css --minify",
     "tailwind-watch": "tailwindcss -i ./src/css/tailwind-in.css -o ./src/css/tailwind-out.css --watch --minify",
     "build": "npm run tailwind && eleventy"
