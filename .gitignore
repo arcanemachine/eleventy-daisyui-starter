@@ -1,0 +1,18 @@
+# misc
+gitignore.*
+*.ignore
+
+# 11ty
+_site/
+
+# environment
+.env
+
+# js
+/node_modules/
+
+# netlify
+.netlify
+
+# vim
+Session*.vim
